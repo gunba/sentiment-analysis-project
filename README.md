@@ -59,15 +59,5 @@ SELECT * FROM sentiment_results LIMIT 10;
 
 docker-compose down
 
-sentiment-analysis-pipeline/
-├── dags/
-│   └── sentiment_analysis_dag.py
-├── data/
-│   └── amazon_reviews_us_Digital_Software_v1_00.tsv
-├── plugins/
-├── postgres-db-volume/
-├── docker-compose.yml
-└── README.md
-
 License
 This project is licensed under the MIT License.
