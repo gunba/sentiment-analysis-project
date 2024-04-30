@@ -53,6 +53,7 @@ docker-compose exec postgres psql -U airflow -d airflow
 Run SQL queries to explore the `sentiment_results` table:
 ```sql
 SELECT * FROM sentiment_results LIMIT 10;
+```
 
 8. To stop and remove the Docker containers, run:
 
